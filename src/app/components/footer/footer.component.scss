@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  
+    .socials {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
