@@ -1,12 +1,15 @@
 <footer class="footer" id="contact">
-    <div>
-        <p>Contact Us</p>
-        <p>Email: contact&#64;lavitacode.com | Phone: +1 (123) 456-7890
-        | Location: 123 Main St, City, Country</p>
-    </div>
-    <div class="socials">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">LinkedIn</a>
-    </div>
-  </footer>
+  <div>
+    <p>{{ contactTitle }}</p>
+    <p>
+      Email: {{ contactInfo.email }} | 
+      Phone: {{ contactInfo.phone }} | 
+      Location: {{ contactInfo.location }}
+    </p>
+  </div>
+  <div class="socials">
+    <a *ngFor="let social of socials" [href]="social.url" target="_blank">
+      {{ social.name }}
+    </a>
+  </div>
+</footer>
