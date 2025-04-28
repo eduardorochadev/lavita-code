@@ -1,27 +1,45 @@
-# LavitaCode
+# 💻 Lavita Code - Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+Landing page institucional para apresentar os serviços e portfólio da **Lavita Code**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📄 Sobre o Projeto
 
-## Code scaffolding
+Este projeto é uma landing page moderna e responsiva, construída com **Angular** e **SCSS**, destinada a promover os serviços de tecnologia e exibir o portfólio de projetos realizados pela empresa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Principais seções:**
+- **Navbar** com links de navegação.
+- **Banner** com chamada principal.
+- **Services** mostrando os principais serviços prestados.
+- **Portfolio** com carrossel de projetos desenvolvidos.
+- **Footer** com informações de contato e redes sociais.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Tecnologias Utilizadas
 
-## Running unit tests
+- Angular
+- SCSS
+- TypeScript
+- HTML5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📂 Estrutura de Pastas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+src/
+├── app/
+│   ├── navbar/
+│   ├── banner/
+│   ├── services/
+│   ├── portfolio/
+│   └── footer/
+├── assets/
+├── environments/
+├── index.html
+├── styles.scss
+angular.json
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
