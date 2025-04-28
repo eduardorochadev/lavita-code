@@ -17,9 +17,9 @@ export class PortfolioComponent {
       link: 'https://www.lacet.tech/home'
     },
     {
-      title: 'Project Beta',
-      description: 'A mobile app for online learning platforms.',
-      imageUrl: 'assets/portfolio/project-beta.jpg',
+      title: 'FX Aurea',
+      description: 'Uma plataforma web responsiva com foco de visualização em mobile',
+      imageUrl: 'assets/portfolio/FXAurea.jpg',
       link: 'https://project-beta.example.com'
     },
     {
